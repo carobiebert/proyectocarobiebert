@@ -41,7 +41,6 @@ main{
 .classiccontainer{
     background-color: white;
     width: 70%;
-    margin: 10%;
     padding: 10%;
 
     color: black;
@@ -50,7 +49,7 @@ main{
 
 
 #boxcontainer{
-    width:70%;
+    width:80%;
     margin: 5%;
     padding: 0;
 
@@ -68,19 +67,18 @@ main{
     background: linear-gradient(to bottom right, rgb(141, 31, 231),rgb(248, 212, 51));
     border: black solid thin;
 
-    flex: initial;
-    flex-shrink: 0;
+    width: 20rem;
+    height: 10rem;
 
-    width: 50%;
-    max-width: 600px;
-    max-height: 600px;
     margin: 5%;
-    padding: 5%;
 
-    color: white;
+    color: rgba(93, 17, 112, 0.979);
     font-size: x-large;
     font-weight: 400;
     text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
 }
 
 
@@ -89,33 +87,30 @@ main{
     height: 100%;
 }
 
-.box1:hover{
+.box1{
     background:url("../img/acercade.png");
-
 }
 
 
-.box2:hover{
-    background:url("../img/campus.JPG");
-
+.box2{
+    background:url("../img/campus1.JPG");
 }
 
 
-.box3:hover{
+.box3{
     background:url("../img/preguntas.JPG");
-
 }
 
-.box4:hover{
+.box4{
     background:url("../img/contacto.jpg");
-    font-weight: 600;
-
 }
+
 
 .box:hover{
+    background: linear-gradient(to bottom right, rgb(141, 31, 231),rgb(248, 212, 51))!important;
     transform: scale(1.05);
-    color: black;
-    font-weight: 600;
+    color: white;
+    font-weight: 400;
 }
 
 footer{
