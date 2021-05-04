@@ -1,0 +1,147 @@
+body {
+    width: 100%;
+    background: url("../img/backgroundpattern.jpg");
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(101, 78, 126));
+    width: 100%;
+    height: 20%;
+    margin: 0%;
+    padding: 2rem;
+    
+    color: yellow;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+#header:hover{
+    background: linear-gradient(to bottom, rgb(141, 31, 231), rgb(122, 91, 156));
+}
+
+header h1:hover,h2:hover{
+    transform: scale(1.05);
+}
+
+
+.headerlink{
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+    margin: 0%;
+    padding: 5%;
+}
+
+
+
+.classiccontainer{
+    background-color: white;
+    width: 70%;
+    margin: 10%;
+    padding: 10%;
+
+    color: black;
+    text-align: left;
+}
+
+
+#boxcontainer{
+    width:70%;
+    margin: 5%;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+
+.boxlink{
+    text-decoration: none;
+}
+
+.box {
+    background: linear-gradient(to bottom right, rgb(141, 31, 231),rgb(248, 212, 51));
+    border: black solid thin;
+
+    flex: initial;
+    flex-shrink: 0;
+
+    width: 50%;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 5%;
+    padding: 5%;
+
+    color: white;
+    font-size: x-large;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.box:hover img{
+    width: 100%;
+    height: 100%;
+}
+
+.box1:hover{
+    background:url("../img/acercade.png");
+
+}
+
+
+.box2:hover{
+    background:url("../img/campus.JPG");
+
+}
+
+
+.box3:hover{
+    background:url("../img/preguntas.JPG");
+
+}
+
+.box4:hover{
+    background:url("../img/contacto.jpg");
+    font-weight: 600;
+
+}
+
+.box:hover{
+    transform: scale(1.05);
+    color: black;
+    font-weight: 600;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(10, 7, 0, 0.315) !important;
+    height: 5%;
+}
+
+#footertext {
+    color: white;
+    overflow: visible;
+    font-weight: 400;
+    float: left;
+}
+
+#socialmedia {
+    overflow: visible;
+    padding: 10%;
+    text-align: left;
+    float: right;
+}
+
+#socialmedia i{
+    size: 2rem;
+    color:white;
+}
