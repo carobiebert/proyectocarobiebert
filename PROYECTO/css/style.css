@@ -10,7 +10,7 @@ body {
     height: 20%;
     margin: 0%;
     padding: 2rem;
-    
+
     color: yellow;
     font-size: x-large;
     text-align: center;
@@ -31,6 +31,7 @@ header h1:hover,h2:hover{
 }
 
 main{
+    width: 100%
     text-align: center;
     margin: 0%;
     padding: 5%;
@@ -51,7 +52,6 @@ main{
 #boxcontainer{
     width:80%;
     margin: 5%;
-    padding: 0;
 
 
     align-items: justify;
@@ -59,6 +59,7 @@ main{
     justify-content: space-around;
     flex-flow: row wrap;
 }
+
 
 .boxlink{
     text-decoration: none;
@@ -70,8 +71,7 @@ main{
 
     width: 20rem;
     height: 10rem;
-
-    margin: 5%;
+    margin: 0.5rem;
 
     color: rgba(93, 17, 112, 0.979);
     font-size: x-large;
