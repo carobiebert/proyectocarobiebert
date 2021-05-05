@@ -56,10 +56,9 @@ main{
 
     align-items: justify;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow: row wrap;
 }
-
 
 .boxlink{
     text-decoration: none;
